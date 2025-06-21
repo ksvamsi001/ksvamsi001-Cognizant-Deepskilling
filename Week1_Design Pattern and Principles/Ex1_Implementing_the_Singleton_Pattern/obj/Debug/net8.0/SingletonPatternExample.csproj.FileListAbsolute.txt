@@ -1,0 +1,14 @@
+C:\Users\vamsi\OneDrive\Desktop\Cog\SingletonPatternExample\bin\Debug\net8.0\SingletonPatternExample.exe
+C:\Users\vamsi\OneDrive\Desktop\Cog\SingletonPatternExample\bin\Debug\net8.0\SingletonPatternExample.deps.json
+C:\Users\vamsi\OneDrive\Desktop\Cog\SingletonPatternExample\bin\Debug\net8.0\SingletonPatternExample.runtimeconfig.json
+C:\Users\vamsi\OneDrive\Desktop\Cog\SingletonPatternExample\bin\Debug\net8.0\SingletonPatternExample.dll
+C:\Users\vamsi\OneDrive\Desktop\Cog\SingletonPatternExample\bin\Debug\net8.0\SingletonPatternExample.pdb
+C:\Users\vamsi\OneDrive\Desktop\Cog\SingletonPatternExample\obj\Debug\net8.0\SingletonPatternExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vamsi\OneDrive\Desktop\Cog\SingletonPatternExample\obj\Debug\net8.0\SingletonPatternExample.AssemblyInfoInputs.cache
+C:\Users\vamsi\OneDrive\Desktop\Cog\SingletonPatternExample\obj\Debug\net8.0\SingletonPatternExample.AssemblyInfo.cs
+C:\Users\vamsi\OneDrive\Desktop\Cog\SingletonPatternExample\obj\Debug\net8.0\SingletonPatternExample.csproj.CoreCompileInputs.cache
+C:\Users\vamsi\OneDrive\Desktop\Cog\SingletonPatternExample\obj\Debug\net8.0\SingletonPatternExample.dll
+C:\Users\vamsi\OneDrive\Desktop\Cog\SingletonPatternExample\obj\Debug\net8.0\refint\SingletonPatternExample.dll
+C:\Users\vamsi\OneDrive\Desktop\Cog\SingletonPatternExample\obj\Debug\net8.0\SingletonPatternExample.pdb
+C:\Users\vamsi\OneDrive\Desktop\Cog\SingletonPatternExample\obj\Debug\net8.0\SingletonPatternExample.genruntimeconfig.cache
+C:\Users\vamsi\OneDrive\Desktop\Cog\SingletonPatternExample\obj\Debug\net8.0\ref\SingletonPatternExample.dll

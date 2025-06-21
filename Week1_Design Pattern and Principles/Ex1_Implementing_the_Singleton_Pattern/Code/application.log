@@ -1,0 +1,10 @@
+[2025-06-21 09:49:05.156] [DEBUG] [Thread-1] This is a debug message
+[2025-06-21 09:49:05.184] [INFO] [Thread-1] Application started successfully
+[2025-06-21 09:49:05.185] [WARNING] [Thread-1] This is a warning message
+[2025-06-21 09:49:05.186] [ERROR] [Thread-1] This is an error message
+[2025-06-21 09:49:05.187] [CRITICAL] [Thread-1] This is a critical message
+[2025-06-21 09:49:05.214] [ERROR] [Thread-1] Exception in TestAdvancedLogger method: This is a test exception
+StackTrace:    at SingletonPatternExample.Program.TestAdvancedLogger() in C:\Users\vamsi\OneDrive\Desktop\Cog\SingletonPatternExample\Program.cs:line 74
+[2025-06-21 09:49:05.219] [INFO] [Thread-9] Concurrent message from Task 0
+[2025-06-21 09:49:05.219] [INFO] [Thread-8] Concurrent message from Task 2
+[2025-06-21 09:49:05.219] [INFO] [Thread-10] Concurrent message from Task 1
