@@ -1,8 +1,7 @@
 CREATE DATABASE ProductRankingExercise;
 USE ProductRankingExercise;
 
-CREATE TABLE Products (
-    ProductID INT IDENTITY(1,1) PRIMARY KEY,
+CREATE TABLE Products (ProductID INT IDENTITY(1,1) PRIMARY KEY,
     ProductName NVARCHAR(100) NOT NULL,
     Category NVARCHAR(50) NOT NULL,
     Price DECIMAL(10,2) NOT NULL
@@ -27,49 +26,44 @@ INSERT INTO Products (ProductName, Category, Price) VALUES
 
 -- QUERY 1:
 
-SELECT 
-    ProductName,
-    Category,
-    Price,
-    ROW_NUMBER() OVER (PARTITION BY Category ORDER BY Price DESC) AS RowNumber
+SELECT ProductName,
+Category,
+Price,
+ROW_NUMBER() OVER (PARTITION BY Category ORDER BY Price DESC) AS RowNumber
 FROM Products
 ORDER BY Category, Price DESC;
 
 -- QUERY 2:
 
-SELECT 
-    ProductName,
-    Category,
-    Price,
-    RANK() OVER (PARTITION BY Category ORDER BY Price DESC) AS RankNumber
+SELECT ProductName,
+Category,
+Price,
+RANK() OVER (PARTITION BY Category ORDER BY Price DESC) AS RankNumber
 FROM Products
 ORDER BY Category, Price DESC;
 
 -- QUERY 3:
 
 SELECT 
-    ProductName,
-    Category,
-    Price,
-    DENSE_RANK() OVER (PARTITION BY Category ORDER BY Price DESC) AS DenseRankNumber
+ProductName,
+Category,
+Price,
+DENSE_RANK() OVER (PARTITION BY Category ORDER BY Price DESC) AS DenseRankNumber
 FROM Products
 ORDER BY Category, Price DESC;
 
 -- FINAL QUERY:
 
 WITH RankedProducts AS (
-    SELECT 
-        ProductName,
-        Category,
-        Price,
-        DENSE_RANK() OVER (PARTITION BY Category ORDER BY Price DESC) AS DenseRankNum
-    FROM Products
+SELECT ProductName,
+Category,
+Price,
+DENSE_RANK() OVER (PARTITION BY Category ORDER BY Price DESC) AS DenseRankNum FROM Products
 )
-SELECT 
-    ProductName,
-    Category,
-    Price,
-    DenseRankNum
+SELECT ProductName,
+Category,
+Price,
+DenseRankNum
 FROM RankedProducts
 WHERE DenseRankNum <= 3
 ORDER BY Category, DenseRankNum;
