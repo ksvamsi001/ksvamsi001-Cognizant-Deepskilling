@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vamsi\\OneDrive\\Desktop\\Moq\\CustomerCommLib\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB3B4588-9C94-48C0-9174-700F67A6B041}|..\\CustomerComm.Tests\\CustomerComm.Tests.csproj|c:\\users\\vamsi\\onedrive\\desktop\\moq\\customercomm.tests\\customercommtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710E522C-45E8-4043-8751-85000D383B75}|CustomerCommLib.csproj|c:\\users\\vamsi\\onedrive\\desktop\\moq\\customercommlib\\mailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{710E522C-45E8-4043-8751-85000D383B75}|CustomerCommLib.csproj|solutionrelative:mailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerCommTests.cs",
+              "DocumentMoniker": "C:\\Users\\vamsi\\OneDrive\\Desktop\\Moq\\CustomerComm.Tests\\CustomerCommTests.cs",
+              "RelativeDocumentMoniker": "..\\CustomerComm.Tests\\CustomerCommTests.cs",
+              "ToolTip": "C:\\Users\\vamsi\\OneDrive\\Desktop\\Moq\\CustomerComm.Tests\\CustomerCommTests.cs",
+              "RelativeToolTip": "..\\CustomerComm.Tests\\CustomerCommTests.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:31:43.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MailSender.cs",
+              "DocumentMoniker": "C:\\Users\\vamsi\\OneDrive\\Desktop\\Moq\\CustomerCommLib\\MailSender.cs",
+              "RelativeDocumentMoniker": "MailSender.cs",
+              "ToolTip": "C:\\Users\\vamsi\\OneDrive\\Desktop\\Moq\\CustomerCommLib\\MailSender.cs",
+              "RelativeToolTip": "MailSender.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T14:29:08.811Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
